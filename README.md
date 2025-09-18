@@ -35,6 +35,8 @@ npm i -D nodemon
 # dev
 npx nodemon index.js
 
+---
+
 ### 🚀 Frontend 
 ```bash
 
