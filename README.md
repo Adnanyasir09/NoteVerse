@@ -55,3 +55,24 @@ npm i axios react-router-dom
 
 npm run dev
 
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Prerequisites
+- Node.js >= 20 (recommended by [Vite docs](https://vitejs.dev/guide/))
+- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/atlas))
+- VS Code (optional, for development)
+
+---
+
+### 🚀 Backend (Express + Mongoose)
+```bash
+# from root
+cd server
+npm init -y
+npm i express mongoose bcryptjs jsonwebtoken dotenv cors
+npm i -D nodemon
+
+
