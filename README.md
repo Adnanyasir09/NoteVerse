@@ -35,6 +35,9 @@ npm i -D nodemon
 # dev
 npx nodemon index.js
 
+### 🚀 Frontend 
+```bash
+
 # from root
 npm create vite@latest client
 # select -> react, javascript
