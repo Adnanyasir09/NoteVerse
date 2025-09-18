@@ -24,7 +24,7 @@ This project uses **MongoDB, Express, React (Vite), Node.js, JWT authentication,
 
 ---
 
-### 🚀 Backend (Express + Mongoose)
+### 🚀 Backend & Frontend 
 ```bash
 # from root
 cd server
@@ -37,8 +37,8 @@ npx nodemon index.js
 
 ---
 
-### 🚀 Frontend 
-```bash
+🚀 Frontend 
+
 
 # from root
 npm create vite@latest client
@@ -54,25 +54,5 @@ npx tailwindcss init -p
 npm i axios react-router-dom
 
 npm run dev
-
-
----
-
-## ⚙️ Installation & Setup
-
-### 🔧 Prerequisites
-- Node.js >= 20 (recommended by [Vite docs](https://vitejs.dev/guide/))
-- MongoDB (local or [MongoDB Atlas](https://www.mongodb.com/atlas))
-- VS Code (optional, for development)
-
----
-
-### 🚀 Backend (Express + Mongoose)
-```bash
-# from root
-cd server
-npm init -y
-npm i express mongoose bcryptjs jsonwebtoken dotenv cors
-npm i -D nodemon
 
 
